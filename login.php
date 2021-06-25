@@ -62,7 +62,7 @@
 			margin: 50px auto;
 			text-align: center;
 			width: 600px;
-			background-image: url(".../images/toiz.png");
+			background-image: url("toiz.png");
 			background-repeat: no-repeat;
 			overflow:hiden;
 			background-size: cover;
