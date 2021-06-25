@@ -11,7 +11,7 @@
 	 //-->
 	</script>
 	</head>
-<title> PAGE FOR DIRECTOR BOARD </title>
+<h1> PAGE FOR DIRECTOR BOARD </h1>
 <body onload = "JavaScript:AutoRefresh(<?php echo $sec*1000; ?>);">    
 	<div class="header">     
       <div class="container">
