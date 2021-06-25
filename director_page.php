@@ -36,9 +36,9 @@
     </div> 
 	<form action="" method="post">
          <select name = "refresh_time">
-            <option value = 5>5 second</option>
-            <option value = 10>10 second</option>
-            <option value = 20 selected>20 second</option>
+            <option value =10>10 second</option>
+            <option value = 20>20 second</option>
+            <option value = 30 selected>30 second</option>
          </select><br/>
 		<input type="submit" name="timerButton" value="Set time"/>
     </form> 
