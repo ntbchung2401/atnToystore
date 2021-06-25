@@ -17,7 +17,7 @@
       <div class="container">
           <div class="navbar">
            <div class="logo">
-               <a href="index.php"><image src="images/toy1.png" width="125px"></image></a>
+               <a href="index.php"><image src="toy1.png" width="125px"></image></a>
            </div>
            <nav>
                <ul id="MenuItems">
