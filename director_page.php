@@ -1,18 +1,16 @@
+<?php
+$page = $_SERVER['PHP_SELF'];
+$sec = "5";
+?>
 <html>
 	<head>
+	<meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
     <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
-	<script type = "text/JavaScript">
-	 <!--
-		function AutoRefresh( t ) {
-		   setTimeout("location.reload(true);", t);
-		}
-	 //-->
-	</script>
 	</head>
-<h1> PAGE FOR DIRECTOR BOARD </h1>
-<body onload = "JavaScript:AutoRefresh(<?php echo $sec*1000; ?>);">    
+<title> PAGE FOR DIRECTOR BOARD </title>
+<body>    
 	<div class="header">     
       <div class="container">
           <div class="navbar">
@@ -34,30 +32,14 @@
        </div>
       </div>
     </div> 
-	<form action="" method="post">
-         <select name = "refresh_time">
-            <option value =10>10 second</option>
-            <option value = 20>20 second</option>
-            <option value = 30 selected>30 second</option>
-         </select><br/>
-		<input type="submit" name="timerButton" value="Set time"/>
-    </form> 
-	<?php
-		$sec = 5;
-		if(isset($_POST['timerButton'])) 
-			{ 
-				//get input text
-				$sec = $_POST['refresh_time'];
-			}
-		echo "This page will reload itself in $sec second!";
-	?>
+
 	<form action="" method="post">
 		<p> Select shop's database you want: <p/> 
          <select name = "db_selection">
             <option value = "SHOP_A" >Shop A</option>
             <option value = "SHOP_B">Shop B</option>
             <option value = "ALL" selected>All shops</option>
-         </select><br/>
+         </select>
 		<input type="submit" name="submitButton" value="Submit"/>
     </form>    
 
