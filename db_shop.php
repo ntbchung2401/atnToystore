@@ -15,6 +15,7 @@
            </div>
            <nav>
                <ul id="MenuItems">
+		   <li><a href="updatedata.php">Update Data</a></li>
                    <li><a href="insert.php">Insert Data</a></li>
                    <li><a href="delete.php">Delete Data</a></li>
                    <li><a href="logout.php">Log Out</a></li>
